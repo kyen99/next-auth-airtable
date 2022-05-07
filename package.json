@@ -1,0 +1,10 @@
+{
+  "name": "next-auth-airtable",
+  "version": "0.0.1",
+  "description": "Airtable adapter for next-auth",
+  "main": "index.js",
+  "repository": "https://github.com/kyen99/next-auth-airtable",
+  "author": "Kai Yen",
+  "license": "MIT",
+  "private": false
+}
