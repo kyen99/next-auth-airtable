@@ -6,7 +6,7 @@ The providers in the example are Google and Email because that's what I used to 
 
 ## Usage
 
-In order to use this demo, you will need to set up a next-auth provider in `pages/api/auth/[...nextauth].js`, including whatever `.env` variables are needed.
+In order to use this demo, you will need to set up a next-auth provider in `pages/api/auth/[...nextauth].js`, including whatever `.env` variables are needed. You can rename `.env.sample` to `.env.local` as a starting point.
 
 For the airtable adapter you will need the following variables
 
@@ -17,4 +17,4 @@ AIRTABLE_BASE_ID=appXXXXXXXXXXXXXX // e.g. https://airtable.com/baseId/something
 
 ## Problems
 
-If you find a provider that doesn't work, please open an issue in the [next-auth-adapter-airtable repo](https://github.com/kyen99/next-auth-adapter-airtable) and include your `[...nextauth].js` file.
+If you find a provider that doesn't work, please open an issue in the [next-auth-adapter-airtable repo](https://github.com/kyen99/next-auth-adapter-airtable/issues) and include your `[...nextauth].js` file.

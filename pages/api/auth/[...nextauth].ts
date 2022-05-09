@@ -4,6 +4,11 @@ import EmailProvider from 'next-auth/providers/email'
 import AirtableAdapter from 'next-auth-adapter-airtable'
 
 export default NextAuth({
+  theme: {
+    colorScheme: 'light',
+    brandColor: '#007DFC',
+    logo: '/logo.svg',
+  },
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || '',
